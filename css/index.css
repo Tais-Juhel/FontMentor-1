@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spartan', sans-serif;
+}
+
+body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .attribution {
+  position: absolute;
+  bottom: 10px;
+}
+
+#topPattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#bottomPattern {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  width: 73vw;
+  height: 560px;
+}
+
+#container #top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#container #top #title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  -ms-grid-rows: 2fr 1fr;
+      grid-template-rows: 2fr 1fr;
+}
+
+#container #top #title h1 {
+  font-size: 50px;
+  color: #502050;
+  line-height: 50px;
+}
+
+#container #top #title p {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  font-size: 15px;
+  color: #ee68a4;
+  font-weight: 500;
+}
+
+#container #top #stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#container #top #stars .star {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  padding: 20px 0;
+  border-radius: 10px;
+  margin: 8px 0;
+  font-size: 14px;
+  background-color: #f7f2f7;
+  width: 75%;
+}
+
+#container #top #stars .star #starsIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container #top #stars .star #starsIcons img {
+  margin: 0 5px;
+  height: 15px;
+}
+
+#container #top #stars .star p {
+  font-weight: bolder;
+}
+
+#container #top #stars .star:first-child {
+  margin-right: 160px;
+}
+
+#container #top #stars .star:nth-child(2) {
+  margin-right: 80px;
+}
+
+#container #bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#container #bottom .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 290px;
+  background-color: #502050;
+  padding: 30px;
+  font-size: 13px;
+  border-radius: 10px;
+  height: 150px;
+}
+
+#container #bottom .card #topCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container #bottom .card #topCard img {
+  height: 40px;
+  border-radius: 20px;
+}
+
+#container #bottom .card #topCard #info {
+  margin-left: 20px;
+}
+
+#container #bottom .card #topCard #info h4 {
+  color: #f7f2f7;
+}
+
+#container #bottom .card #topCard #info p {
+  color: #937b92;
+  margin-top: 3px;
+}
+
+#container #bottom .card > p {
+  color: #f7f2f7;
+  line-height: 20px;
+}
+
+#container #bottom .card:first-child {
+  margin-bottom: 50px;
+}
+
+#container #bottom .card:nth-child(2) {
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=index.css.map */
